@@ -105,25 +105,25 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="💥ᴄᴏᴍᴀɴᴅs💥", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="💥ᴏᴡɴᴇʀ💥",
+                url="https://t.me/lifeinsinn",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="💥sʏsᴛᴇᴍ💥",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="💥sᴜᴘᴘᴏʀᴛ💥", url="http://t.me/xproject13"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="💥ᴀᴅᴅ sɪɴɴᴇʀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ💥",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -131,9 +131,9 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hey there! My name is {BOT_NAME}. I can manage your "
-    + "group with lots of useful features, feel free to "
-    + "add me to your group."
+    f"Hᴇʏ ᴛʜᴇʀᴇ! Mʏ ɴᴀᴍᴇ ɪs {BOT_NAME}. I ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ "
+    + "ɢʀᴏᴜᴘ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs, ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ "
+    + "ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ."
 )
 
 
@@ -141,20 +141,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
+                text="💥ʜᴇʟᴘ💥",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="💥ᴏᴡɴᴇʀ💥",
+                url="https://t.me/lifeinsinn",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="💥sʏsᴛᴇᴍ💥",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="💥sᴜᴘᴘᴏʀᴛ💥", url="t.me/xproject13"),
         ],
     ]
 )
@@ -203,7 +203,7 @@ async def help_command(_, message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Click here",
+                                text="ᴄʟɪᴄᴋ ʜᴇʀᴇ",
                                 url=f"t.me/{BOT_USERNAME}?start=help_{name}",
                             )
                         ],
@@ -253,10 +253,10 @@ async def help_parser(name, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
     return (
-        """Hello {first_name}, My name is {bot_name}.
-I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button.
-Also you can ask anything in Support Group.
+        """Hᴇʟʟᴏ {first_name}, Mʏ ɴᴀᴍᴇ ɪs {bot_name}.
+I'ᴍ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+Yᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ.
+Aʟsᴏ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.
 """.format(
             first_name=name,
             bot_name=BOT_NAME,
@@ -292,10 +292,10 @@ async def help_button(client, query):
     back_match = re.match(r"help_back", query.data)
     create_match = re.match(r"help_create", query.data)
     top_text = f"""
-Hello {query.from_user.first_name}, My name is {BOT_NAME}.
-I'm a group management bot with some usefule features.
-You can choose an option below, by clicking a button.
-Also you can ask anything in Support Group.
+Hᴇʟʟᴏ {query.from_user.first_name}, Mʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.
+I'ᴍ ᴀ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟᴇ ғᴇᴀᴛᴜʀᴇs.
+Yᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ.
+Aʟsᴏ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ.
 
 General command are:
  - /start: Start the bot
@@ -313,7 +313,7 @@ General command are:
         await query.message.edit(
             text=text,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("back", callback_data="help_back")]]
+                [[InlineKeyboardButton("💥ʙᴀᴄᴋ💥", callback_data="help_back")]]
             ),
             disable_web_page_preview=True,
         )
