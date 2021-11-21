@@ -131,7 +131,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
 )
 
 home_text_pm = (
-    f"Hᴇʏ ᴛʜᴇʀᴇ! Mʏ ɴᴀᴍᴇ ɪs {BOT_NAME}. I ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ "
+    f"Hᴇʏ ᴛʜᴇʀᴇ! Mʏ ɴᴀᴍᴇ ɪs [sɪɴɴᴇʀ](https://telegra.ph/file/c226623ff79fa51e5d587.jpg). I ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ "
     + "ɢʀᴏᴜᴘ ᴡɪᴛʜ ʟᴏᴛs ᴏғ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs, ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ "
     + "ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ."
 )
