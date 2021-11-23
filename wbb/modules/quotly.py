@@ -30,7 +30,7 @@ from pyrogram.types import Message
 from wbb import SUDOERS, USERBOT_PREFIX, app, app2, arq
 from wbb.core.decorators.errors import capture_err
 
-__MODULE__ = "Quotly"
+__MODULE__ = "Qᴜᴏᴛʟʏ"
 __HELP__ = """
 /q - To quote a message.
 /q [INTEGER] - To quote more than 1 messages.
