@@ -105,20 +105,20 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="💥ᴄᴏᴍᴀɴᴅs💥", callback_data="bot_commands"
+                text="🜏 ᴄᴏᴍᴀɴᴅs 🜏", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="💥ᴏᴡɴᴇʀ💥",
+                text="🜏 ᴏᴡɴᴇʀ 🜏",
                 url="https://t.me/lifeinsinn",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💥sʏsᴛᴇᴍ💥",
+                text="🜏 sʏsᴛᴇᴍ 🜏",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="💥sᴜᴘᴘᴏʀᴛ💥", url="http://t.me/xproject13"
+                text="🜏 sᴜᴘᴘᴏʀᴛ 🜏", url="http://t.me/xproject13"
             ),
         ],
         [
@@ -141,20 +141,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="💥ʜᴇʟᴘ💥",
+                text="🜏 ʜᴇʟᴘ 🜏",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="💥ᴏᴡɴᴇʀ💥",
+                text="🜏 ᴏᴡɴᴇʀ 🜏",
                 url="https://t.me/lifeinsinn",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💥sʏsᴛᴇᴍ💥",
+                text="🜏 sʏsᴛᴇᴍ 🜏",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="💥sᴜᴘᴘᴏʀᴛ💥", url="t.me/xproject13"),
+            InlineKeyboardButton(text="🜏 sᴜᴘᴘᴏʀᴛ 🜏", url="t.me/xproject13"),
         ],
     ]
 )
