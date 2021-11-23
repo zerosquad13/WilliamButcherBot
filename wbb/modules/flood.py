@@ -36,7 +36,7 @@ from wbb.modules.admin import list_admins, member_permissions
 from wbb.utils.dbfunctions import flood_off, flood_on, is_flood_on
 from wbb.utils.filter_groups import flood_group
 
-__MODULE__ = "Flood"
+__MODULE__ = "Fʟᴏᴏᴅ"
 __HELP__ = """
 Anti-Flood system, the one who sends more than 10 messages in a row, gets muted for an hour (Except for admins).
 
