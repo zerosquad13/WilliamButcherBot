@@ -27,7 +27,7 @@ from pyrogram.types import Message
 from wbb import app
 from wbb.core.decorators.errors import capture_err
 
-__MODULE__ = "WebSS"
+__MODULE__ = "Wᴇʙss"
 __HELP__ = "/webss | .webss [URL] - Take A Screenshot Of A Webpage"
 
 
