@@ -31,7 +31,7 @@ from wbb import (BOT_ID, SUDOERS, USERBOT_ID, USERBOT_PREFIX, USERBOT_USERNAME,
 from wbb.core.decorators.errors import capture_err
 from wbb.utils.filter_groups import chatbot_group
 
-__MODULE__ = "ChatBot"
+__MODULE__ = "CʜᴀᴛBᴏᴛ"
 __HELP__ = """
 /chatbot [ENABLE|DISABLE] To Enable Or Disable ChatBot In Your Chat.
 
