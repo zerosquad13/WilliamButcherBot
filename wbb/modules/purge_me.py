@@ -27,7 +27,7 @@ from pyrogram.types import Message
 
 from wbb import USERBOT_ID, USERBOT_PREFIX, app2, eor, telegraph
 
-__MODULE__ = "Userbot"
+__MODULE__ = "Usᴇʀʙᴏᴛ"
 TEXT = """
 <code>alive</code>  →  Send Alive Message.<br>
 
