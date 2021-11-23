@@ -32,7 +32,7 @@ from wbb import app, arq
 from wbb.core.decorators.errors import capture_err
 from wbb.utils.functions import get_file_id_from_message
 
-__MODULE__ = "Storage"
+__MODULE__ = "Sᴛᴏʀᴀɢᴇ"
 __HELP__ = """
 Upload unlimited files smaller than 100MB
 And get a download link
