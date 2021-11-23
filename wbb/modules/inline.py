@@ -28,7 +28,7 @@ import traceback
 from wbb import app
 from wbb.utils.inlinefuncs import *
 
-__MODULE__ = "Inline"
+__MODULE__ = "Iɴʟɪɴᴇ"
 __HELP__ = """See inline for help related to inline"""
 
 
