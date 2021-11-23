@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from wbb import app, telegraph
 from wbb.core.decorators.errors import capture_err
 
-__MODULE__ = "Telegraph"
+__MODULE__ = "Tᴇʟᴇɢʀᴀᴘʜ"
 __HELP__ = "/telegraph [Page name]: Paste styled text on telegraph."
 
 
