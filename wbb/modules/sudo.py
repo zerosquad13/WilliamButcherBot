@@ -29,7 +29,7 @@ from wbb.core.decorators.errors import capture_err
 from wbb.utils.dbfunctions import add_sudo, get_sudoers, remove_sudo
 from wbb.utils.functions import restart
 
-__MODULE__ = "Sudo"
+__MODULE__ = "Sᴜᴅᴏ"
 __HELP__ = """
 **THIS MODULE IS ONLY FOR DEVS**
 
